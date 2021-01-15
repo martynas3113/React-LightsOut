@@ -1,0 +1,125 @@
+.Board {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow:  0 0 1vw #FA1C16, 0 0 3vw #FED128, 0 0 2vw #0A3940, 0 0 2vw #FA1C16, 0 0 .4vw #1041FF, .5vw .5vw .1vw #806914;;
+}
+
+ 
+
+.title-cont > .lights {
+  display: inline-block;
+  font-family: neon;
+  color: #FB4264;
+  font-size: 4vw;
+  line-height: 4vw;
+  text-shadow: 0 0 3vw #F40A35;
+  animation: lights 1s ease infinite;
+  -moz-animation: lights 1s ease infinite;
+  -webkit-animation: lights 1s ease infinite;
+}
+.title-cont > .out {
+  display: inline-block;
+  font-family: neon;
+  color: #426DFB;
+  font-size: 4vw;
+  line-height: 4w;
+  text-shadow: 0 0 3vw #2356FF;
+  animation: out 2s linear infinite;
+  -moz-animation: out 2s linear infinite;
+  -webkit-animation: out 2s linear infinite;
+  -o-animation: out 2s linear infinite;
+  
+}
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.You {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 13vw;
+  line-height: 13vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.Win {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 13vw;
+  line-height: 13vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.You {
+  animation: You 1s ease infinite;
+  -moz-animation: You 1s ease infinite;
+  -webkit-animation: You 1s ease infinite;
+}
+
+@keyframes You {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.Win {
+  animation: Win 2s linear infinite;
+  -moz-animation: Win 2s linear infinite;
+  -webkit-animation: Win 2s linear infinite;
+  -o-animation: Win 2s linear infinite;
+}
+
+@keyframes Win {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+@keyframes out {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+@keyframes lights {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+
+
